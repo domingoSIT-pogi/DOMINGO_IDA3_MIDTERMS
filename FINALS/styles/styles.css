@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('../');
+    font-family: "Lucinta Sans", "lucinta Sans Regular" , "Lucinta Grande" , "Lucina Sans Unicode" Geneva, "Verdana", "San Serif";
+    color: brown;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+#content{
+    width: 100%;
+    border-radius: .6em;
+    display: block;
+    background-color: rgb(255, 139, 197);
+}
+nav{
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 0.5em;
+    padding: 2em;
+    margin-bottom: 1em;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav li{ 
+    flex: 18%;
+    flex-wrap: wrap;
+    display: inline;
+    margin-right: 15px;
+    font-size: 1.1em;
+    padding: 0;
+    border-top-left-radius: .6em;
+    background-color: white;
+    height: 50px;
+}
+#main-nav li > a{
+    flex: 100%;
+    padding: 2em;
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+    border-top-left-radius: .6em;
+}
+#main-nav li > a:hover{
+    color: aliceblue;
+    background-color: brown;
+}
